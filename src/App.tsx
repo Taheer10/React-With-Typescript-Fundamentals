@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import Easyexample from "./topics/01 JSX syntax and basic components/01 Easy/Easyexample";
+// import Medium from "./topics/01 JSX syntax and basic components/02 Medium/Medium";
+// import Medium02 from "./topics/01 JSX syntax and basic components/02 Medium/Medium02";
+import Hard01 from "./topics/01 JSX syntax and basic components/03 Hard/Hard01";
 
-function App() {
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* <Easyexample text="Hello User" /> */}
+//       <Medium name="Nirose" />
+//     </div>
+//   );
+// }
+
+const App = () => {
+  // const user = "Alice";
+
+  // return <Medium name={user} />; //It must be in same line to pass value using variable
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Medium02 />; */}
+      <Hard01 title="React With Typescript" />
+      <p>Content goes here for children</p>
+    </>
   );
-}
+};
 
 export default App;
