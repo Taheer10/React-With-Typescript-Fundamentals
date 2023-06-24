@@ -1,11 +1,14 @@
 import React from "react";
-import LifecycleExample from "./topics/04 React Component Lifecycle/01 ComponentDid mount/LifecycleExample";
-
+import Easy01 from "./topics/05 Conditional Rendering and Handling Lists/01Easy/Easy01";
+import Easy02 from "./topics/05 Conditional Rendering and Handling Lists/01Easy/Easy02";
+import Easy03 from "./topics/05 Conditional Rendering and Handling Lists/01Easy/Easy03";
 
 const App = () => {
   return (
     <>
-     <LifecycleExample/>
+      <Easy01 />
+      <Easy02 items={["1", "2", "3"]} />
+      <Easy03 />
     </>
   );
 };
