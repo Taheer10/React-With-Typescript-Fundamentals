@@ -1,10 +1,11 @@
 import React from "react";
-import Hard01 from "./topics/03 Event handling in React/03Hard/Hard01";
+import LifecycleExample from "./topics/04 React Component Lifecycle/01 ComponentDid mount/LifecycleExample";
+
 
 const App = () => {
   return (
     <>
-      <Hard01 />
+     <LifecycleExample/>
     </>
   );
 };
