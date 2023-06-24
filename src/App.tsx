@@ -1,14 +1,13 @@
 import React from "react";
-import Easy01 from "./topics/05 Conditional Rendering and Handling Lists/01Easy/Easy01";
-import Easy02 from "./topics/05 Conditional Rendering and Handling Lists/01Easy/Easy02";
-import Easy03 from "./topics/05 Conditional Rendering and Handling Lists/01Easy/Easy03";
+// import Medium01 from "./topics/05 Conditional Rendering and Handling Lists/02Medium/Medium01";
+import Medium02 from "./topics/05 Conditional Rendering and Handling Lists/02Medium/Medium02";
 
 const App = () => {
   return (
     <>
-      <Easy01 />
-      <Easy02 items={["1", "2", "3"]} />
-      <Easy03 />
+      {/* <Medium01 role="Admin"/> */}
+      {/* <Medium01 role="user" /> */}
+      {/* <Medium02 /> */}
     </>
   );
 };
