@@ -1,14 +1,14 @@
 import React from "react";
-import DragAndDrop from "./topics/02 Props and state in React/03Hard/DragAndDrop";
+// import Easy01 from "./topics/03 Event handling in React/01Easy/Easy01";
+import Easy02 from "./topics/03 Event handling in React/01Easy/Easy02";
 
 const App = () => {
-  const dragAndDropItems = [
-    { id: 1, content: "Item 1" },
-    { id: 2, content: "Item 2" },
-    { id: 3, content: "Item 3" },
-  ];
-
-  return <DragAndDrop items={dragAndDropItems} />;
+  return (
+    <>
+      {/* <Easy01/> */}
+      <Easy02 />
+    </>
+  );
 };
 
 export default App;
