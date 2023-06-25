@@ -1,14 +1,14 @@
 import React from "react";
-import Easy01 from "./topics/06 List and Keys/01Easy/Easy01";
-import Easy02 from "./topics/06 List and Keys/01Easy/Easy02";
-import Easy03 from "./topics/06 List and Keys/01Easy/Easy03";
+import Medium01 from "./topics/06 List and Keys/02Medium/Medium01";
+import Medium02 from "./topics/06 List and Keys/02Medium/Medium02";
+import Medium03 from "./topics/06 List and Keys/02Medium/Medium03";
 
 const App = () => {
   return (
     <>
-      <Easy01 />
-      <Easy02 />
-      <Easy03 />
+      <Medium01 />
+      <Medium02 />
+      <Medium03/>
     </>
   );
 };
