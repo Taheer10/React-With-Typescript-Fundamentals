@@ -1,12 +1,14 @@
 import React from "react";
-import Hard01 from "./topics/05 Conditional Rendering and Handling Lists/03Hard/Hard01";
-import Hard02 from "./topics/05 Conditional Rendering and Handling Lists/03Hard/Hard02";
+import Easy01 from "./topics/06 List and Keys/01Easy/Easy01";
+import Easy02 from "./topics/06 List and Keys/01Easy/Easy02";
+import Easy03 from "./topics/06 List and Keys/01Easy/Easy03";
 
 const App = () => {
   return (
     <>
-      {/* <Hard01 /> */}
-      <Hard02 />
+      <Easy01 />
+      <Easy02 />
+      <Easy03 />
     </>
   );
 };
