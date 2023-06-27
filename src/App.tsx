@@ -1,18 +1,33 @@
 import React from "react";
-import TodoList from "./topics/08 React FC/02Medium/TodoList";
-import ConditionalRendering from "./topics/08 React FC/02Medium/ConditionalRendering";
+
+import Authentication from "./topics/08 React FC/03Hard/Authentication";
+import Pagination from "./topics/08 React FC/03Hard/Pagination";
 
 const App = () => {
+  const handleLogin = (username: string, password: string) => {
+    // Perform login logic
+    console.log("Logging in with:", username, password);
+  };
+
+  const handleLogout = () => {
+    // Perform logout logic
+    console.log("Logging out");
+  };
+
+  const handlePageChange = (pageNumber: number) => {
+    // Perform page change logic
+    console.log("Changing to page:", pageNumber);
+  };
+
   return (
     <div>
-      <TodoList
-        todos={[
-          { id: 1, text: "Hello", completed: false },
-          { id: 2, text: "World", completed: true },
-        ]}
-      />
+      <Authentication onLogin={handleLogin} onLogout={handleLogout} />
 
-      <ConditionalRendering showContent={true} />
+      <Pagination
+        currentPage={1}
+        totalPages={5}
+        onPageChange={handlePageChange}
+      />
     </div>
   );
 };
